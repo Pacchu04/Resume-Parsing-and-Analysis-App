@@ -45,3 +45,14 @@ For each resume on which the model is tested, we calculate the accuracy score, p
 
 ![image](https://github.com/Pacchu04/Resume-Parsing-and-Analysis-App/assets/92878457/3d55f26d-7d0b-4081-8b75-c6d7b13cf3d3)
 
+## Model deployment and simple Web application using Flask
+
+Flask is a lightweight and flexible web framework for Python. It is designed to make it easy to create web applications quickly with minimal overhead.
+
+### Features of Web:
+1. HR can Post the Job
+2. Candidates can apply for the job by uploading their resume.
+3. HR can view the candidates details
+4. HR can view the candidates who have applied, along with their matching percentage to the job description
+
+## For setuping this project in your system please read the Readme file inside the Resume Parsing and Analysis App folder
