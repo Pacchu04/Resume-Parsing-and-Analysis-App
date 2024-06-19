@@ -51,8 +51,11 @@ Flask is a lightweight and flexible web framework for Python. It is designed to 
 
 ### Features of Web:
 1. HR can Post the Job
-2. Candidates can apply for the job by uploading their resume.
-3. HR can view the candidates details
-4. HR can view the candidates who have applied, along with their matching percentage to the job description
+
+![image](https://github.com/Pacchu04/Resume-Parsing-and-Analysis-App/assets/92878457/658a5231-640d-422a-b7a1-4c0262cf7781)
+
+3. Candidates can apply for the job by uploading their resume.
+4. HR can view the candidates details
+5. HR can view the candidates who have applied, along with their matching percentage to the job description
 
 ## For setuping this project in your system please read the Readme file inside the Resume Parsing and Analysis App folder
