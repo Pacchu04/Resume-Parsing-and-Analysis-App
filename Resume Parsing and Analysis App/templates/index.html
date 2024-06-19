@@ -1,0 +1,71 @@
+{% extends "base.html" %} {% block title %}Resume Parsing and Analysis{% endblock %}
+{% block Addnav %}
+<li class="nav-item active">
+  <!-- <a class="nav-link" href="/HR">Employeer/HR Page</a> -->
+  <a class="nav-link" style="z-index: 10; font-weight: bold;" href="/HR">HR Team</a>
+</li>
+{% endblock %} {% block styleInclude %}
+<style>
+  @media screen and (min-width: 992px) {
+    a.sign_in {
+      width: 60%;
+    }
+  }
+  @media screen and (min-width: 1300px) {
+    a.sign_in {
+      width: 40%;
+    }
+  }
+  @media screen and (min-width: 300px) {
+    .main_card {
+      margin-top: 30px;
+    }
+  }
+
+  .sign_in {
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none; /* remove underline from anchors */
+    background-color: #dd4b39;
+    color: white;
+  }
+  body {
+    background-color: #1f2937; /* Tailwind's bg-gray-900 */
+  } 
+
+   h1, p {
+    color: #eff4fa; /* Tailwind's text-gray-100 */
+  } 
+ 
+
+</style>
+{% endblock %} {% block content %}
+<div class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <div
+        class="col-md-12 col-xs-12 main_card"
+        style="margin-top: 50px; z-index: 10"
+      >
+        <h1 class="text-center mt-4 hh">Resume Parsing and Analysis</h1>
+        <a
+          href="/login"
+          class="btn btn-lg btn-danger mt-5 sign_in mx-auto d-block"
+          style="z-index: 10"
+          ><i class="fab fa-google me-4"></i>Login With Google</a>
+      </div>
+      <div class="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none flex justify-center">
+        <img src="https://res.cloudinary.com/dtsuvx8dz/image/upload/v1716357077/o1imiun4wwcpia9uucgs.gif" alt="App screenshot" width="300" height="300" class="w-[15rem] rounded-md bg-white/5 shadow-2xl ring-1 ring-white/10">
+
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
