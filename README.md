@@ -59,8 +59,17 @@ Home Page:
 
 ![image](https://github.com/Pacchu04/Resume-Parsing-and-Analysis-App/assets/92878457/658a5231-640d-422a-b7a1-4c0262cf7781)
 
-3. Candidates can apply for the job by uploading their resume.
-4. HR can view the candidates details
-5. HR can view the candidates who have applied, along with their matching percentage to the job description
+2. Candidates can apply for the job by uploading their resume.
+
+![image](https://github.com/Pacchu04/Resume-Parsing-and-Analysis-App/assets/92878457/9be6711e-6f97-45d4-aa02-b0117890e933)
+
+3. HR can view the candidates details
+
+![image](https://github.com/Pacchu04/Resume-Parsing-and-Analysis-App/assets/92878457/a63e4625-14be-49e6-926e-6162588a9296)
+
+4. HR can view the candidates who have applied, along with their matching percentage to the job description
+
+![image](https://github.com/Pacchu04/Resume-Parsing-and-Analysis-App/assets/92878457/ae055bfd-a40c-42f8-9000-c5258e693045)
+
 
 ## For setuping this project in your system please read the Readme file inside the Resume Parsing and Analysis App folder
