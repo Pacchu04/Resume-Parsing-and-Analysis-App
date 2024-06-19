@@ -13,3 +13,6 @@ Named-entity recognition (NER) (also known as entity identification, entity chun
 
 ### Dataset :
 
+To create manually annotated training data to train the model. For this purpose, 1014 resumes were downloaded from an online jobs platform. These documents were uploaded to our online annotation tool and manually annotated.
+The tool automatically parses the documents and allows for us to create annotations of important entities we are interested in and generates json formatted training data with each line containing the text corpus along with the annotations.
+
