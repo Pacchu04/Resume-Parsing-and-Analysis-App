@@ -5,6 +5,10 @@ This project aims to automate the extraction of key information from resumes and
 This project speaks about a field in Natural language Processing and Information Retrieval called Named Entity Recognition and how we can apply it for automatically generating summaries of resumes by extracting only chief entities like name, education background, skills, etc.
 It is often observed that resumes may be populated with excess information, often irrelevant to what the evaluator is looking for in it. Therefore, the process of evaluation of resumes in bulk often becomes tedious and hectic. Through our NER model, we could facilitate evaluation of resumes at a quick glance, thereby simplifying the effort required in shortlisting candidates among a pile of resumes.
 
+## Techniques Used
+1. NER
+2. Spacy
+   
 ## What is Named Entity Recognition?
 
 Named-entity recognition (NER) (also known as entity identification, entity chunking and entity extraction) is a sub-task of information extraction that seeks to locate and classify named entities in text into pre-defined categories such as the names of persons, organizations, locations, expressions of times, quantities, monetary values, percentages, etc. NER systems have been created that use linguistic grammar-based techniques as well as statistical models such as machine learning. Hand-crafted grammar-based systems typically obtain better precision, but at the cost of lower recall and months of work by experienced computational linguists.
@@ -18,5 +22,5 @@ The tool automatically parses the documents and allows for us to create annotati
 
 ### Online annotate tool link: https://tecoholic.github.io/ner-annotator/
 
-The dataset consisting of 1014 annotated resumes can be found in the dataset folder in my directory
+The dataset consisting of 1014 annotated resumes can be found in the dataset folder in my directory 
 
