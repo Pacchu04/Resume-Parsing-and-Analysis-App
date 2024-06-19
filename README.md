@@ -34,3 +34,14 @@ spaCy’s tagger, parser, text categorizer and many other components are powered
 Training is an iterative process in which the model’s predictions are compared against the reference annotations in order to estimate the gradient of the loss. The gradient of the loss is then used to calculate the gradient of the weights through backpropagation. The gradients indicate how the weight values should be changed so that the model’s predictions become more similar to the reference labels over time.
 
 ![image](https://github.com/Pacchu04/Resume-Parsing-and-Analysis-App/assets/92878457/8187c55e-5e5c-4e81-919b-8438de67630d)
+
+When training a model, we don’t just want it to memorize our examples – we want it to come up with a theory that can be generalized across unseen data. After all, we don’t just want the model to learn that this one instance of “Amazon” right here is a company – we want it to learn that “Amazon”, in contexts like this, is most likely a company. That’s why the training data should always be representative of the data we want to process. A model trained on Wikipedia, where sentences in the first person are extremely rare, will likely perform badly on Twitter. Similarly, a model trained on romantic novels will likely perform badly on legal text.
+
+## Results and Evaluation of the model :
+
+The model is tested on 20 resumes and the predicted summarized resumes are stored as separate .txt files for each resume.
+
+For each resume on which the model is tested, we calculate the accuracy score, precision, recall and f-score for each entity that the model recognizes. The values of these metrics for each entity are summed up and averaged to generate an overall score to evaluate the model on the test data consisting of 20 resumes. The entity wise evaluation results can be observed below . It is observed that the results obtained have been predicted with a commendable accuracy.
+
+![image](https://github.com/Pacchu04/Resume-Parsing-and-Analysis-App/assets/92878457/3d55f26d-7d0b-4081-8b75-c6d7b13cf3d3)
+
