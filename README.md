@@ -50,6 +50,11 @@ For each resume on which the model is tested, we calculate the accuracy score, p
 Flask is a lightweight and flexible web framework for Python. It is designed to make it easy to create web applications quickly with minimal overhead.
 
 ### Features of Web:
+
+Home Page: 
+
+![image](https://github.com/Pacchu04/Resume-Parsing-and-Analysis-App/assets/92878457/b544d006-bb29-404e-bb46-0b9d2850582f)
+
 1. HR can Post the Job
 
 ![image](https://github.com/Pacchu04/Resume-Parsing-and-Analysis-App/assets/92878457/658a5231-640d-422a-b7a1-4c0262cf7781)
