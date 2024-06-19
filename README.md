@@ -18,3 +18,5 @@ The tool automatically parses the documents and allows for us to create annotati
 
 ### Online annotate tool link: https://tecoholic.github.io/ner-annotator/
 
+The dataset consisting of 1014 annotated resumes can be found in the dataset folder in my directory
+
