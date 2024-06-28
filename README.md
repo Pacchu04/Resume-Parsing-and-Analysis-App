@@ -71,5 +71,11 @@ Home Page:
 
 ![image](https://github.com/Pacchu04/Resume-Parsing-and-Analysis-App/assets/92878457/ae055bfd-a40c-42f8-9000-c5258e693045)
 
-
-## For setuping this project in your system please read the Readme file inside the Resume Parsing and Analysis App folder
+## Initial Setup:
+Clone repo and create a virtual environment
+```
+$ git clone 
+$ cd Resume-Parsing-and-Analysis-App
+$ python -m venv venv
+$ venv\Scripts\activate
+```
