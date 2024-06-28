@@ -74,8 +74,12 @@ Home Page:
 ## Initial Setup:
 Clone repo and create a virtual environment
 ```
-$ git clone 
+$ git clone https://github.com/Pacchu04/Resume-Parsing-and-Analysis-App.git
 $ cd Resume-Parsing-and-Analysis-App
 $ python -m venv venv
 $ venv\Scripts\activate
+```
+Install dependencies
+```
+$ (venv) pip install -r requirements.txt
 ```
