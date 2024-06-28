@@ -83,7 +83,20 @@ Install dependencies
 ```
 $ (venv) pip install -r requirements.txt
 ```
-Replace GOOGLE_CLIENT_ID
+Replace GOOGLE_CLIENT_ID in app.py
 ```
 $ Create OAuth Client ID and Download json file and add client_secret.json in main directory
+```
+Replace MONGO_URI
+```
+$ Create Database Service and generate API key replace it in app.py 
+```
+Add assets folder which contain trained model
+```
+
+```
+
+Finally flask run to start the server
+```
+flask run 
 ```
