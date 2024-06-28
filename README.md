@@ -83,3 +83,7 @@ Install dependencies
 ```
 $ (venv) pip install -r requirements.txt
 ```
+Replace GOOGLE_CLIENT_ID
+```
+$ Create OAuth Client ID and Download json file and add client_secret.json in main directory
+```
