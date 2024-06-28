@@ -93,7 +93,7 @@ $ Create Database Service and generate API key replace it in app.py
 ```
 Add assets folder which contain trained model
 ```
-
+https://drive.google.com/drive/folders/1cKpAZBPW-ijUFnc2aPlLhIGqt3aRUDxH?usp=sharing
 ```
 
 Finally flask run to start the server
